@@ -16,7 +16,7 @@ services:
     depends_on:
       - dbos
     ports:
-      - 8080:80
+      - 8081:80
     environment:
       WORDPRESS_DB_HOST: dbos
       WORDPRESS_DB_USER: vikas
