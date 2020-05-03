@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
-      MYSQL_USER: nishtha
+      MYSQL_USER: vikas
       MYSQL_PASSWORD: redhat
       MYSQL_DATABASE: mydb
   wpos:
@@ -19,7 +19,7 @@ services:
       - 8080:80
     environment:
       WORDPRESS_DB_HOST: dbos
-      WORDPRESS_DB_USER: nishtha
+      WORDPRESS_DB_USER: vikas
       WORDPRESS_DB_PASSWORD: redhat
       WORDPRESS_DB_NAME: mydb
     volumes:
